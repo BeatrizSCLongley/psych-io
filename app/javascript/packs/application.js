@@ -15,3 +15,14 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+// -----------------------------------------------------------------------------
+// External
+import 'bootstrap';
+
+// Import functions here:
+// import { navbarScroll } from '../components/navbar';
+
+// document.addEventListener('turbolinks:load', () => {
+//   navbarScroll();
+// });
