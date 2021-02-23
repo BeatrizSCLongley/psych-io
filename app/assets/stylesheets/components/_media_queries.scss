@@ -1,0 +1,35 @@
+// Small screen
+@media only screen and (max-width: 767px) {
+  // Banner video
+  #home-banner-mobile {
+    display: block;
+  }
+
+   #home-banner {
+    display: none;
+  }
+}
+
+// Medium screen
+@media only screen and (min-width: 768px) {
+  // Banner video
+  #home-banner-mobile {
+    display: none;
+  }
+
+   #home-banner {
+    display: block;
+  }
+}
+
+// Large screen
+@media only screen and (min-width: 992px) {
+  // Banner video
+  #home-banner-mobile {
+    display: none;
+  }
+
+   #home-banner {
+    display: block;
+  }
+}
