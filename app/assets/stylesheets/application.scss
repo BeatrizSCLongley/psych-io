@@ -2,8 +2,10 @@
 @import "bootstrap/scss/bootstrap";
 
 // Config - graphical variables
+@import "config/general";
 
 // Pages
+@import "components/navbar";
 
 // Components
 
