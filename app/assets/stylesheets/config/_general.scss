@@ -1,0 +1,28 @@
+// Colors:
+:root {
+  --logoBlue: rgb(33, 151, 176);
+  --logoBlueTrans: rgba(33, 151, 176, 0.8);
+  --logoOrange: rgb(241, 104, 56);
+  --logoOrangeTrans: rgba(241, 104, 56, 0.8);
+  --colorBeige: rgb(246, 243, 237);
+  --colorGrey: rgb(114, 113, 113);
+}
+
+.color-blue {
+  color: var(--logoBlue);
+}
+
+.color-grey {
+  color: var(--colorGrey);
+}
+
+// Font-family:
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+// General:
+.hidden {
+  display: none;
+}
+
