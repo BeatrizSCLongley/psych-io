@@ -1,6 +1,10 @@
 #home-banner {
-  height: 740px;
+  height: 520px; // 740px for fullscreen
   width: 100%;
+  // Style bellow just for the picture:
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #home-banner-mobile {

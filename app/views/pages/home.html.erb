@@ -1,6 +1,7 @@
 <!-- Banner -->
 <div id="home-banner">
-  <%= video_tag "logo.mp4", alt: "logo animation", id: "banner-logo-animation", height: '100%', width: "100%", autoplay: :autoplay, preload: 'auto', muted: :muted %>
+  <%#= video_tag "logo.mp4", alt: "logo animation", id: "banner-logo-animation", height: '100%', width: "100%", autoplay: :autoplay, preload: 'auto', muted: :muted %>
+  <%= image_tag "logo.png", alt: "psych-io logo", height: '200px', width: '220px' %>
 </div>
 <div id="home-banner-mobile">
   <%= video_tag "logo.mp4", alt: "logo animation", id: "banner-logo-animation", height: '100%', width: "100%", autoplay: :autoplay, preload: 'auto', muted: :muted %>
@@ -8,11 +9,11 @@
 <!-- About -->
 <div id="about-section" style="background-image: linear-gradient(rgba(225,225,225,0.2),rgba(225,225,225,0.2)), url(assets/mountain_orange.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+    <div class="row space-around">
+      <div class="col-12 col-md-4 col-lg-4 col-xl-4">
         <%= image_tag "man.jpg", alt: "Andy Longley", id: "about-portrait" %>
       </div>
-      <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+      <div class="col-12 col-md-7 col-lg-7 col-xl-7">
         <div id="about-text-container">
           <h2 class="color-blue">about Andy</h2>
           <p>Text will go here</p>
@@ -21,3 +22,4 @@
     </div>
   </div>
 </div>
+<!-- Solutions -->
