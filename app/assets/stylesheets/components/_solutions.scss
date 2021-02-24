@@ -1,0 +1,27 @@
+#solutions-section {
+  height: 500px;
+  width: 100%;
+  background-color: var(--colorBeige);
+  display: flex;
+  align-items: center;
+}
+
+.solution-card {
+  height: 295px;
+  width: 264px;
+  border-radius: 2px 2px 2px 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  color: var(--colorBeige);
+}
+
+.bcolor-grey {
+  background-color: var(--colorGrey);
+}
+
+#bcolor-orange {
+  background-color: var(--logoOrange);
+}
