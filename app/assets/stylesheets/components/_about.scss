@@ -1,18 +1,23 @@
 #about-section {
-  height: 750px;
+  height: 500px;
   display: flex;
   align-items: center;
 }
 
+.space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
 #about-portrait {
-  height: 500px;
+  height: 390px;
   width: 100%;
-  border-radius: 42px 0px 0px 0px;
+  border-radius: 0px 42px 0px 0px;
 }
 
 #about-text-container {
   background-color: rgba(255, 255, 255, 0.4);
-  height: 500px;
+  height: 390px;
   width: 100%;
   border-radius: 0px 42px 0px 0px;
   display: flex;
