@@ -1,0 +1,28 @@
+<footer id="footer">
+  <div id="footer-container">
+    <div id="footer-col-one">
+      <div id="footer-logo">
+        <%= link_to root_path do %>
+          <%= image_tag('logo.png', height: '80', width: '95')%>
+        <% end %>
+      </div>
+      <div id="footer-phrase">
+        <p>Catch phrase will go here</p>
+      </div>
+      <div id="social-media-footer">
+        <a href="https://www.linkedin.com/in/andy-longley-40091443/" target="_blank"><i class="fab fa-linkedin-in color-grey mr-30"></i></a>
+        <a href="https://andylongley.medium.com/" target="_blank"><i class="fab fa-medium-m color-grey mr-30"></i></a>
+        <a href="https://twitter.com/longley_andy" target="_blank"><i class="fab fa-twitter color-grey mr-30"></i></a>
+      </div>
+    </div>
+
+    <div id="footer-col-two">
+      <h3>Links</h3>
+      <ul class="footer-links">
+        <li><%= link_to "About", root_path(@root, :anchor => "about-section"), class: "nav-link color-grey" %></li>
+        <li><%= link_to "Solutions", root_path(@root, :anchor => "solutions-section"), class: "nav-link color-grey" %></li>
+        <li><%= link_to "Contact", root_path(@root, :anchor => "contact-section"), class: "nav-link color-grey" %></li>
+      </ul>
+    </div>
+  </div>
+</footer>

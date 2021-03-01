@@ -1,0 +1,38 @@
+#footer {
+  background-color: white;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+}
+
+#footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+
+#footer-phrase {
+  margin-top: 20px;
+}
+
+#social-media-footer {
+  i:hover {
+    color: var(--logoBlue);
+  }
+}
+
+.footer-links {
+  padding-inline-start: 0px;
+  position: relative;
+  left: -14px;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+}
