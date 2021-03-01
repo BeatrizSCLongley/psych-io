@@ -1,5 +1,7 @@
 // External libraries
 @import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 // Config - graphical variables
 @import "config/general";
@@ -11,6 +13,7 @@
 @import "components/about";
 @import "components/solutions";
 @import "components/contact";
+@import "components/footer";
 
 // Components
 
