@@ -1,0 +1,13 @@
+#btn-contact {
+  width: 200px;
+  height: 50px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 2px 2px 2px 2px;
+  background-color: var(--logoBlue);
+  color: var(--colorBeige);
+  border-style: none;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+}

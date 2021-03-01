@@ -1,0 +1,9 @@
+<div id="contact-form">
+  <%= simple_form_for @contact do |f| %>
+    <%= f.input :name %>
+    <%= f.input :email %>
+    <%= f.input :topic %>
+    <%= f.input :message %>
+    <%= f.submit "send", id: "btn-contact"%>
+  <% end %>
+</div>
