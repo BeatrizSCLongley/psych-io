@@ -11,9 +11,13 @@
   background-color: var(--colorBeige);
   border-radius: 2px 42px 2px 2px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.12);
+  // Combination for form to stay in the middle of the container
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 // -----------------------------------------------------------------------------
 #contact-form {
-
+  width: 80%;
 }
