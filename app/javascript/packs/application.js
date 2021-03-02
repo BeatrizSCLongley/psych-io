@@ -22,7 +22,21 @@ import 'bootstrap';
 
 // Import functions here:
 import { navbarScroll } from '../components/navbar';
+import { navbarHighlight } from '../components/navbar';
 
+// Element Selectors
+const about = document.getElementById('about-section');
+const solutions = document.getElementById('solutions-section');
+const contact = document.getElementById('contact-section');
+
+const aboutNavbar = document.getElementById('about-navbar');
+const solutionsNavbar = document.getElementById('solutions-navbar');
+const contactNavbar = document.getElementById('contact-navbar');
+
+// Call functions:
 document.addEventListener('turbolinks:load', () => {
   navbarScroll();
+  navbarHighlight(about, aboutNavbar);
+  navbarHighlight(solutions, solutionsNavbar);
+  navbarHighlight(contact, contactNavbar);
 });
