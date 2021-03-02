@@ -7,18 +7,27 @@
   <%= video_tag "logo.mp4", alt: "logo animation", id: "banner-logo-animation", height: '100%', width: "100%", autoplay: :autoplay, preload: 'auto', muted: :muted %>
 </div>
 <!-- About -->
-<div id="about-section" style="background-image: linear-gradient(rgba(225,225,225,0.2),rgba(225,225,225,0.2)), url(assets/mountain_orange.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+<!-- <div id="about-section" style="background-image: linear-gradient(rgba(225,225,225,0.2),rgba(225,225,225,0.2)), url(assets/mountain_orange.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
   <div class="container">
     <div class="row content-space-around">
       <div class="col-12 col-md-4 col-lg-4 col-xl-4">
-        <%= image_tag "man.jpg", alt: "Andy Longley", id: "about-portrait" %>
+        <%# = image_tag "man.jpg", alt: "Andy Longley", id: "about-portrait" %>
       </div>
       <div class="col-12 col-md-7 col-lg-7 col-xl-7">
-        <div id="about-text-container">
+        <div id="about-text-container" data-aos="fade-right" data-aos-duration="1000">
           <h2 class="color-blue">about Andy</h2>
           <p>Text will go here</p>
         </div>
       </div>
+    </div>
+  </div>
+</div> -->
+
+<div id="about-section" style="background-image: linear-gradient(rgba(225,225,225,0.2),rgba(225,225,225,0.2)), url(assets/mountain_orange.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+  <div class="container">
+    <div id="transparent-card" data-aos="fade-right" data-aos-duration="1000">
+      <h2 class="color-blue">about Andy</h2>
+      <p>Text will go here</p>
     </div>
   </div>
 </div>
@@ -29,19 +38,19 @@
     <p>Introduction paragraph on the solutions psychio offers.</p>
     <div class="row mt-50">
       <div class="col-12 col-md-4 col-lg-4 col-xl-4 content-center">
-        <div class="solution-card" id="bcolor-orange">
+        <div class="solution-card" id="bcolor-orange" data-aos="fade-down" data-aos-duration="800">
           <h3>Solution one</h3>
           <p>Small intro to solution</p>
         </div>
       </div>
       <div class="col-12 col-md-4 col-lg-4 col-xl-4 content-center">
-        <div class="solution-card bcolor-grey">
+        <div class="solution-card bcolor-grey" data-aos="fade-down" data-aos-duration="1200">
           <h3>Solution two</h3>
           <p>Small intro to solution</p>
         </div>
       </div>
       <div class="col-12 col-md-4 col-lg-4 col-xl-4 content-center">
-        <div class="solution-card bcolor-grey">
+        <div class="solution-card bcolor-grey" data-aos="fade-down" data-aos-duration="1800">
           <h3>Solution three</h3>
           <p>Small intro to solution</p>
         </div>
@@ -51,7 +60,7 @@
 </div>
 <div id="more-info-section" style="background-image: linear-gradient(rgba(225,225,225,0.2),rgba(225,225,225,0.2)), url(assets/sea.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
   <div class="container">
-    <div id="transparent-card">
+    <div id="transparent-card" data-aos="fade-right" data-aos-duration="1000">
       <p>Some text will go here to add to the solutions</p>
     </div>
   </div>
@@ -62,17 +71,17 @@
     <p>We have shared our expertise with:</p>
     <div id="brand-section">
       <div class="row mt-50">
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center">
-          <%= image_tag "ibm.svg.png", alt: "IBM logo", height: "80px", width: "200px" %>
+        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center-brand">
+          <%= image_tag "ibm.svg.png", alt: "IBM logo", height: "70px", width: "200px" %>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center">
+        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center-brand">
           <%= image_tag "emirates.svg.png", alt: "IBM logo", height: "80px", width: "80px" %>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center">
-          <%= image_tag "zalando.svg.png", alt: "IBM logo", height: "80px", width: "200px" %>
+        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center-brand">
+          <%= image_tag "zalando.svg.png", alt: "IBM logo", height: "60px", width: "200px" %>
         </div>
-        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center">
-          <%= image_tag "adidas.svg.png", alt: "IBM logo", height: "80px", width: "100px" %>
+        <div class="col-12 col-md-3 col-lg-3 col-xl-3 content-center-brand">
+          <%= image_tag "adidas.svg.png", alt: "IBM logo", height: "75px", width: "100px" %>
         </div>
       </div>
     </div>
